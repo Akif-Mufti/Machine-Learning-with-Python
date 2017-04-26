@@ -49,3 +49,4 @@ y_pred = knn.predict(x_test)
 l=np.mean(y_pred == y_test)
 
 ac= knn.score(x_test, y_test)
+
